@@ -56,8 +56,6 @@ body {
 
 .container {
   display: flex;
-  /* mobile viewport bug fix */
-  height: -webkit-fill-available;
   height: 100vh;
 }
 
