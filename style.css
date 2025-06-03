@@ -13,9 +13,12 @@
   --fg-dark-secondary: oklch(92.80078124999997% 0.025 var(--hue-accent));
   --fg-dark-tertiary: oklch(77.32617187500003% 0.05 var(--hue-accent));
 
-  --accent-primary: oklch(59.7656246099424% 0.25 var(--hue-accent));
+  /* --accent-primary: oklch(59.7656246099424% 0.25 var(--hue-accent));
   --accent-secondary: oklch(59.7656246099424% 0.25 var(--hue-accent) / 50%);
-  --accent-tertiary: oklch(59.7656246099424% 0.25 var(--hue-accent) / 25%);
+  --accent-tertiary: oklch(59.7656246099424% 0.25 var(--hue-accent) / 25%); */
+  --accent-primary: oklch(0.398 0.0921875 var(--hue-accent));
+  --accent-secondary: oklch(0.398 0.0921875 var(--hue-accent) / 50%);
+  --accent-tertiary: oklch(0.398 0.0921875 var(--hue-accent) / 25%);
 
   --contrast-primary: oklch(92.80078124999997% 0.25 var(--hue-contrast));
   --contrast-secondary: oklch(
