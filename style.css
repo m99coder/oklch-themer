@@ -56,7 +56,9 @@ body {
 
 .container {
   display: flex;
-  height: 100dvh;
+  /* mobile viewport bug fix */
+  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 .panel {
