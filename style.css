@@ -27,17 +27,17 @@
   --border-light-secondary: oklch(0% 0 0 / 20%);
   --border-light-tertiary: oklch(0% 0 0 / 30%);
 
-  --border-dark-primary: oklch(100% 0 0 / 10%);
-  --border-dark-secondary: oklch(100% 0 0 / 20%);
-  --border-dark-tertiary: oklch(100% 0 0 / 30%);
+  --border-dark-primary: oklch(100% 0 0 / 20%);
+  --border-dark-secondary: oklch(100% 0 0 / 40%);
+  --border-dark-tertiary: oklch(100% 0 0 / 60%);
 
   --surface-light-primary: oklch(0% 0 0 / 5%);
   --surface-light-secondary: oklch(0% 0 0 / 10%);
   --surface-light-tertiary: oklch(0% 0 0 / 15%);
 
-  --surface-dark-primary: oklch(100% 0 0 / 5%);
-  --surface-dark-secondary: oklch(100% 0 0 / 10%);
-  --surface-dark-tertiary: oklch(100% 0 0 / 20%);
+  --surface-dark-primary: oklch(100% 0 0 / 10%);
+  --surface-dark-secondary: oklch(100% 0 0 / 20%);
+  --surface-dark-tertiary: oklch(100% 0 0 / 30%);
 }
 
 html,
