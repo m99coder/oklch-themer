@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OKLCH Themer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel light-theme" id="panel-light">
+        <div class="panel-content">
+          <div class="color-list" id="color-list-light">
+            <ul class="color-sample-list">
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--bg-light</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--bg-light)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--fg-light-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--fg-light-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--fg-light-secondary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--fg-light-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--fg-light-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--fg-light-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--accent-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--accent-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--accent-secondary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--accent-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--accent-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--accent-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--contrast-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--contrast-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--contrast-secondary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--contrast-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--contrast-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--contrast-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--border-light-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--border-light-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name"
+                    >--border-light-secondary</span
+                  >
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--border-light-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--border-light-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--border-light-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--surface-light-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--surface-light-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name"
+                    >--surface-light-secondary</span
+                  >
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--surface-light-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name"
+                    >--surface-light-tertiary</span
+                  >
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--surface-light-tertiary)"
+                  ></span>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="demo-container gradient-bg">
+            <nav class="demo-section border-level-1">
+              <div class="menu">
+                <a href="#" class="menu-item">Pricing</a
+                ><a href="#" class="menu-item">Docs</a
+                ><a href="#" class="menu-item">Blog</a>
+              </div>
+            </nav>
+            <div class="demo-section border-level-1">
+              <h1>A go-to template for a DevTool startup</h1>
+              <p class="text-secondary">
+                Use this template to launch your next developer tool or open
+                source project.
+              </p>
+              <div class="button-container paragraph-spacing">
+                <button class="button button-primary">Primary</button>
+                <button class="button button-secondary">Secondary</button>
+                <button class="button button-tertiary">Tertiary</button>
+              </div>
+              <div class="caption surface-level-2 text-sm text-tertiary">
+                Some not very important caption.
+              </div>
+            </div>
+            <div class="two-columns">
+              <div class="demo-section border-level-1 text-secondary">
+                <p>Borders</p>
+                <div class="caption border-level-1">Border level 1</div>
+                <div class="caption border-level-2">Border level 2</div>
+                <div class="caption border-level-3">Border level 3</div>
+              </div>
+              <div class="demo-section border-level-1 text-secondary">
+                <p>Surfaces</p>
+                <div class="caption surface-level-1">Surface level 1</div>
+                <div class="caption surface-level-2">Surface level 2</div>
+                <div class="caption surface-level-3">Surface level 3</div>
+              </div>
+            </div>
+            <div class="demo-section border-level-1">
+              <div class="contrast contrast-primary"></div>
+              <div class="contrast contrast-secondary"></div>
+              <div class="contrast contrast-tertiary"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel dark-theme" id="panel-dark">
+        <div class="panel-content">
+          <div class="color-list" id="color-list-dark">
+            <ul class="color-sample-list">
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--bg-dark</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--bg-dark)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--fg-dark-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--fg-dark-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--fg-dark-secondary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--fg-dark-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--fg-dark-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--fg-dark-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--accent-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--accent-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--accent-secondary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--accent-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--accent-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--accent-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--contrast-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--contrast-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--contrast-secondary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--contrast-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--contrast-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--contrast-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--border-dark-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--border-dark-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--border-dark-secondary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--border-dark-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--border-dark-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--border-dark-tertiary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--surface-dark-primary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--surface-dark-primary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name"
+                    >--surface-dark-secondary</span
+                  >
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--surface-dark-secondary)"
+                  ></span>
+                </span>
+              </li>
+              <li class="color-sample-row">
+                <span class="color-sample-wrapper">
+                  <span class="color-sample-name">--surface-dark-tertiary</span>
+                  <span
+                    class="color-sample"
+                    style="background-color: var(--surface-dark-tertiary)"
+                  ></span>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="demo-container gradient-bg">
+            <nav class="demo-section border-level-1">
+              <div class="menu">
+                <a href="#" class="menu-item">Pricing</a
+                ><a href="#" class="menu-item">Docs</a
+                ><a href="#" class="menu-item">Blog</a>
+              </div>
+            </nav>
+            <div class="demo-section border-level-1">
+              <h1>A go-to template for a DevTool startup</h1>
+              <p class="text-secondary">
+                Use this template to launch your next developer tool or open
+                source project.
+              </p>
+              <div class="button-container paragraph-spacing">
+                <button class="button button-primary">Primary</button>
+                <button class="button button-secondary">Secondary</button>
+                <button class="button button-tertiary">Tertiary</button>
+              </div>
+              <div class="caption surface-level-2 text-sm text-tertiary">
+                Some not very important caption.
+              </div>
+            </div>
+            <div class="two-columns">
+              <div class="demo-section border-level-1 text-secondary">
+                <p>Borders</p>
+                <div class="caption border-level-1">Border level 1</div>
+                <div class="caption border-level-2">Border level 2</div>
+                <div class="caption border-level-3">Border level 3</div>
+              </div>
+              <div class="demo-section border-level-1 text-secondary">
+                <p>Surfaces</p>
+                <div class="caption surface-level-1">Surface level 1</div>
+                <div class="caption surface-level-2">Surface level 2</div>
+                <div class="caption surface-level-3">Surface level 3</div>
+              </div>
+            </div>
+            <div class="demo-section border-level-1">
+              <div class="contrast contrast-primary"></div>
+              <div class="contrast contrast-secondary"></div>
+              <div class="contrast contrast-tertiary"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
