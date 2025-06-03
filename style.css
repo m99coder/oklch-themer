@@ -20,6 +20,10 @@
   --accent-secondary: oklch(0.398 0.0921875 var(--hue-accent) / 50%);
   --accent-tertiary: oklch(0.398 0.0921875 var(--hue-accent) / 25%);
 
+  --accent-dark-primary: oklch(0.45 0.2 var(--hue-accent));
+  --accent-dark-secondary: oklch(0.45 0.2 var(--hue-accent) / 60%);
+  --accent-dark-tertiary: oklch(0.45 0.2 var(--hue-accent) / 40%);
+
   --contrast-primary: oklch(77.32617187500003% 0.25 var(--hue-contrast));
   --contrast-secondary: oklch(
     77.32617187500003% 0.25 var(--hue-contrast) / 50%
@@ -203,7 +207,7 @@ h1 {
 }
 
 #panel-dark .button-primary {
-  background-color: var(--accent-primary, white);
+  background-color: var(--accent-dark-primary, white);
   color: var(--fg-dark-primary, black);
 }
 
@@ -213,7 +217,7 @@ h1 {
 }
 
 #panel-dark .button-secondary {
-  background-color: var(--accent-secondary, white);
+  background-color: var(--accent-dark-secondary, white);
   color: var(--fg-dark-primary, black);
 }
 
@@ -223,7 +227,7 @@ h1 {
 }
 
 #panel-dark .button-tertiary {
-  background-color: var(--accent-tertiary, white);
+  background-color: var(--accent-dark-tertiary, white);
   color: var(--fg-dark-primary, white);
 }
 
