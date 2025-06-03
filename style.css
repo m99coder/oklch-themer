@@ -20,11 +20,11 @@
   --accent-secondary: oklch(0.398 0.0921875 var(--hue-accent) / 50%);
   --accent-tertiary: oklch(0.398 0.0921875 var(--hue-accent) / 25%);
 
-  --contrast-primary: oklch(92.80078124999997% 0.25 var(--hue-contrast));
+  --contrast-primary: oklch(77.32617187500003% 0.25 var(--hue-contrast));
   --contrast-secondary: oklch(
-    92.80078124999997% 0.25 var(--hue-contrast) / 50%
+    77.32617187500003% 0.25 var(--hue-contrast) / 50%
   );
-  --contrast-tertiary: oklch(92.80078124999997% 0.25 var(--hue-contrast) / 25%);
+  --contrast-tertiary: oklch(77.32617187500003% 0.25 var(--hue-contrast) / 25%);
 
   --border-light-primary: oklch(0% 0 0 / 10%);
   --border-light-secondary: oklch(0% 0 0 / 20%);
