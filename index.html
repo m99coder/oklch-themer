@@ -7,6 +7,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="toolbar">
+      <div class="toolbar-content">
+        <label class="container-slider"
+          >Accent tone:
+          <input
+            type="range"
+            id="hue-accent-slider"
+            min="0"
+            max="360"
+            step="1"
+            value="279" /><input
+            type="number"
+            id="hue-accent-input"
+            min="0"
+            max="360"
+            step="1"
+            value="279"
+        /></label>
+        <label class="container-slider"
+          >Contrast tone:
+          <input
+            type="range"
+            id="hue-contrast-slider"
+            min="0"
+            max="360"
+            step="1"
+            value="279" /><input
+            type="number"
+            id="hue-contrast-input"
+            min="0"
+            max="360"
+            step="1"
+            value="83"
+        /></label>
+        <label class="container-slider"
+          >Show color lists:
+          <input type="checkbox" id="show-color-list" />
+        </label>
+      </div>
+    </div>
+
     <div class="container">
       <div class="panel light-theme" id="panel-light">
         <div class="panel-content">
@@ -408,5 +449,7 @@
         </div>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
