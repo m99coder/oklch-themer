@@ -4,14 +4,22 @@
 
 ## Usage
 
-- screenshot
-- explain accent and contrast colors
-- toggle for color list
-- download as ASE file
+![Screenshot](./screenshot.png "Screenshot")
+
+On <https://oklch-themer.vercel.app>, you can adjust the accent and contrast color and derive a color palette from it. Additionally, you can download the color palette as an Adobe Swatch Exchange (ASE) file. You can also check the color contrast ratio by hovering over the buttons and contrast circles.
 
 ## OkLch
 
-TODO: describe OkLch and provide resources
+- <https://hybridheroes.de/blog/2023-04-27-rgb-hsl-oklch/>
+- <https://hybridheroes.de/blog/consistent-ui-color-palettes/>
+- <https://evilmartians.com/chronicles/better-dynamic-themes-in-tailwind-with-oklch-color-magic>
+- <https://evilmartians.com/chronicles/exploring-the-oklch-ecosystem-and-its-tools>
+- <https://evilmartians.com/chronicles/oklch-a-color-picker-made-to-help-think-perceptively>
+- <https://harmonizer.evilmartians.com/>
+- <https://oklch.com/>
+- <https://colorjs.io/>
+- <https://oklch-palette.vercel.app/>
+- <https://huetone.ardov.me/>
 
 ## Adobe Swatch Exchange (ASE)
 
